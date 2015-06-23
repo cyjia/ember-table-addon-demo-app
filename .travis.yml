@@ -4,9 +4,6 @@ python:
 
 sudo: required
 use_chrome: true
-cache:
-  directories:
-    - node_modules
 
 before_install:
 
@@ -42,8 +39,5 @@ install:
 before_script:
 
 script: ./test-ci.sh
-
-notifications:
-  slack: hedgeserv:QQblFhv13dIPhqwoXI6qTDzA
 
 
