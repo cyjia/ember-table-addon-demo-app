@@ -1,0 +1,32 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+
+.idea
+*.pyc
+
+# Mountebank
+mb.log
+mb.pid
+
+# Demo
+demo.log
+demo.pid
+
+lettucetests.xml
+test-result.xml
+temp.xml

@@ -1,0 +1,63 @@
+@height-100-rows: 300px;
+
+.fully_loaded_table_container {
+  height: 30030px;
+}
+
+.lazy-loaded-table-container {
+  &.height-100-rows {
+    height: @height-100-rows;
+  }
+}
+
+.inline-header {
+  display: inline-block;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-lightgray {
+  background-color: lightgray;
+}
+
+.text-center {
+  * {
+    text-align: center;
+  }
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.custom-grouped-row-indicator {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-left: 5px;
+  width: 25px;
+  height: 10px;
+  
+  &.fold > span {
+    transition: all .3s linear;
+    display: inline-block;
+    transform: rotate(0deg);
+  }  
+
+
+  &.unfold > span {
+    transition: all .3s linear;
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+}
