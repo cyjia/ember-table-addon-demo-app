@@ -2,10 +2,5 @@
   "name": "ember-cli-md-template",
   "keywords": [
     "ember-addon"
-  ],
-  "dependencies": {
-    "broccoli-filter": "^0.1.6",
-    "marked": "^0.3.2",
-    "rsvp": "^3.0.18"
-  }
+  ]
 }
