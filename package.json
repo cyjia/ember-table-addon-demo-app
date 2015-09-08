@@ -42,7 +42,8 @@
   "ember-addon": {
     "paths": [
       "lib/bootstrap-idea",
-      "lib/ember-cli-stub-server"
+      "lib/ember-cli-stub-server",
+      "lib/ember-cli-md-template"
     ]
   }
 }
